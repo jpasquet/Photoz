@@ -1,2 +1,2 @@
 # Photoz
-After acceptance of the paper, the code will be released. 
+The code will be released soon. 
