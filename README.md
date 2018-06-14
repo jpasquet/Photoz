@@ -4,7 +4,7 @@
 
 **Description**
 ```
-This code permits to make the inference phase on 100 images. The code calculate the photometric redshifts and the probabilities in each redshift bins to derive the PDF associated.  
+This code permits to make the inference phase on 100 example images thanks to the pretrained weights. The code calculate the photometric redshifts and the probabilities in each redshift bins to derive the PDF associated for each of the 100 galaxy images.  
 ```
 
 **Download weights of the network:**
