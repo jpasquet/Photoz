@@ -2,10 +2,10 @@
 (J. Pasquet, E. Bertin, M. Treyer, S. Arnouts and D. Fouchez)
 
 
-**Download data:**
+**Download weights of the network:**
 ```
-Data are hosted on an external server. Type: scp ...
-Move the file into the "data" repository
+The files that contained the weights of the pretrained model can be downloaded at this link: https://drive.google.com/drive/folders/19QjIaJcbe7btlUDTHUWxC64-aEQk4r9Q?usp=sharing
+Move the downloaded files into the "pretrained_model" repository
 ```
 
 **Setting up dependencies yourself**
