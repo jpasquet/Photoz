@@ -1,5 +1,5 @@
 # Photometric redshifts code tutorial 
-(J. Pasquet, E. Bertin, M. Treyer, S. Arnouts and D. Fouchez)
+J. Pasquet, E. Bertin, M. Treyer, S. Arnouts and D. Fouchez
 
 
 **Description**
