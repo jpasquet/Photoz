@@ -5,7 +5,6 @@
 **Download weights of the network:**
 ```
 The files that contained the weights of the pretrained model can be downloaded at this link: https://drive.google.com/drive/folders/19QjIaJcbe7btlUDTHUWxC64-aEQk4r9Q?usp=sharing
-Move the downloaded files into the "pretrained_model" repository
 ```
 
 **Setting up dependencies yourself**
