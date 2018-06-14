@@ -65,5 +65,5 @@ err_abs =  np.sum( abs(prediction-z ))/z.shape[0]
 deltaz=(prediction-z)/(1+z)
 biais=np.sum(deltaz)/z.shape[0]
 nmad= 1.48*np.median(abs(deltaz-np.median(deltaz)))
-print "biais = ", " sigma_mad = ",nmad
+print  " sigma_mad = ",nmad
 
