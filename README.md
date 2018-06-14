@@ -11,8 +11,8 @@ Move the file into the "data" repository
 **Setting up dependencies yourself**
 ```
 python
-tensorflow
-numpy
+tensorflow (pip install tensorflow)
+numpy (pip install numpy)
 ```
 
 **Running the code**
