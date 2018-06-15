@@ -18,7 +18,7 @@ pip install --upgrade matplotlib numpy tensorflow
 git clone https://github.com/jpasquet/photoz
 cd photoz
 git lfs install
-git lfs fetch
+git lfs pull
 ```
 
 **Running the code**
