@@ -10,7 +10,7 @@ The code has been tested with Python 2.7 and Python 3.6. The CNN model is built 
 
 **Installing**
 
-[Git](https://git-scm.com/) and [Git-LFS](https://git-lfs.github.com/) are required for cloning the present repository (the CNN weights exceed GitHub's regular 100MB filesize limit)
+[Git](https://git-scm.com/) and [Git-LFS](https://git-lfs.github.com/) are required for cloning the present repository (the CNN weights exceed GitHub's regular 100MB filesize limit). Alternatively you may download the pretrained_model data [from here](https://drive.google.com/drive/folders/19QjIaJcbe7btlUDTHUWxC64-aEQk4r9Q).
 
 On UN*X systems:
 ```
