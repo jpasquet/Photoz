@@ -45,14 +45,16 @@ saver.restore(session,tf.train.latest_checkpoint(path_model))
 
 ############FETCH THE NN USING MINIBATCHES############
 prediction = []
+probas=[]
 for i in range(0, data.shape[0], BATCH_SIZE):
 	batch_data = data[i : min(i + BATCH_SIZE, data.shape[0])]
 	batch_ebv = ebv[i : min(i + BATCH_SIZE, ebv.shape[0])]
 	dico = {params["x"]:batch_data,params["reddening"]:batch_ebv}
 	output = session.run(params["output"], feed_dict=dico)
+	probas = probas +list(output)
 	prediction = prediction + list(np.sum(output * range_z, axis=1))
 
-
+probas=np.array(probas)
 prediction = np.array(prediction)
 z = z[:,0]
 
@@ -65,3 +67,13 @@ print(" N = %d galaxies" %z.size)
 print(" bias = %.4g" %bias)
 print(" sigma_mad = %.4g" %nmad)
 
+
+############SAVE FILE############
+f = open("output.txt","w") 
+f.write("z"+" "+"zphot_CNN"+" "+"probas"+"\n")
+for i in range(0,len(prediction)):
+	f.write(str(z[i])+" "+str(prediction[i])+" ")
+	for j in range(0, len(probas[i])):
+		f.write(str(probas[i][j])+" ")
+	f.write("\n")
+f.close()
