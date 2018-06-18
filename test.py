@@ -69,11 +69,8 @@ print(" sigma_mad = %.4g" %nmad)
 
 
 ############SAVE FILE############
-f = open("output.txt","w") 
-f.write("z"+" "+"zphot_CNN"+" "+"probas"+"\n")
-for i in range(0,len(prediction)):
-	f.write(str(z[i])+" "+str(prediction[i])+" ")
-	for j in range(0, len(probas[i])):
-		f.write(str(probas[i][j])+" ")
-	f.write("\n")
-f.close()
+tmp = np.zeros((z.shape[0], probas.shape[1]+2))
+tmp[:, 0] = z
+tmp[:, 1] = prediction
+tmp[:, 2:] = probas
+np.savetxt("output.txt",tmp, fmt=["%1.4f", "%1.4f"]+["%1.8f"]*probas.shape[1], header="z[1.4f] zphot_CNN[1.4f] probas[1.8f]x180")
