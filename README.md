@@ -9,6 +9,7 @@ The `test.py` [Python](https://www.python.org/)  code runs the CNN in inference 
 The code has been tested with Python 2.7 and Python 3.6. The CNN model is built on top of the [TensorFlow](https://www.tensorflow.org/) framework and should be compatible with TF versions ≥ 1.4.1.
 
 **Installing**
+
 [Git](https://git-scm.com/)  is required for cloning the present repository.
 
 On UN*X systems:
