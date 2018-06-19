@@ -10,15 +10,14 @@ The code has been tested with Python 2.7 and Python 3.6. The CNN model is built 
 
 **Installing**
 
-[Git](https://git-scm.com/) and [Git-LFS](https://git-lfs.github.com/) are required for cloning the present repository (the CNN weights exceed GitHub's regular 100MB filesize limit). Alternatively you may download the pretrained_model data [from here](https://drive.google.com/drive/folders/19QjIaJcbe7btlUDTHUWxC64-aEQk4r9Q).
+[Git](https://git-scm.com/)  is required for cloning the present repository.
+As the CNN weights exceed GitHub's regular 100MB filesize limit, you may download the pretrained_model data [from here](https://drive.google.com/drive/folders/19QjIaJcbe7btlUDTHUWxC64-aEQk4r9Q).
 
 On UN*X systems:
 ```
 pip install --upgrade matplotlib numpy tensorflow
 git clone https://github.com/jpasquet/photoz
 cd photoz
-git lfs install
-git lfs pull
 ```
 
 **Running the code**
