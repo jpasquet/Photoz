@@ -17,7 +17,9 @@ On UN*X systems:
 ```
 pip install --upgrade matplotlib numpy tensorflow
 git clone https://github.com/jpasquet/photoz
+mv pretrained_model photoz/
 cd photoz
+
 ```
 
 **Running the code**
