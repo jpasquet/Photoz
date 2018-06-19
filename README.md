@@ -19,7 +19,7 @@ git clone https://github.com/jpasquet/photoz
 cd photoz
 
 ```
-As the CNN weights exceed GitHub's regular 100MB filesize limit, you may download the pretrained_model data [from here](https://drive.google.com/drive/folders/19QjIaJcbe7btlUDTHUWxC64-aEQk4r9Q). You have to unzip the repository (unzip pretrained_model.zip) and move it to the photoz repository.
+As the CNN weights exceed GitHub's regular 100MB filesize limit, you may download the pretrained_model data [from here](https://drive.google.com/drive/folders/19QjIaJcbe7btlUDTHUWxC64-aEQk4r9Q). The pretrained_model repository has to be unzipped (unzip pretrained_model.zip) and move to the photoz repository.
 
 **Running the code**
 ```
