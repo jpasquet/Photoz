@@ -1,0 +1,1 @@
+The zipped `pretrained_model/` folder and its content can be downloaded [here](https://projets.lam.fr/dmsf/files/16143/view) or [here](https://drive.google.com/drive/folders/19QjIaJcbe7btlUDTHUWxC64-aEQk4r9Q).
