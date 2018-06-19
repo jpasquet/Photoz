@@ -2,7 +2,7 @@
 
 This repository contains the [CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network) model as well as a subset of multispectral [SDSS](http://www.sdss.org/) images for testing.
 
-Checkout [J. Pasquet et al. 2018](http://arxiv.org/) for a detailed description of the model and its performance.
+Check out [J. Pasquet et al. 2018](http://arxiv.org/abs/1806.06607) for a detailed description of the model and its performance.
 
 The `test.py` [Python](https://www.python.org/)  code runs the CNN in inference mode on 100 example images (stored in `data/data_example.npz`) using a set of pretrained weights. The code computes a [photometric redshift](https://en.wikipedia.org/wiki/Photometric_redshift) estimate and the associated [PDF](https://en.wikipedia.org/wiki/Probability_density_function) over 180 redshift bins for each of the provided galaxy images.  
 
