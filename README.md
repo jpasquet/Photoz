@@ -13,5 +13,7 @@ python test.py
 ```
 The code has been tested with Python 2.7 and Python 3.6. The CNN model is built on top of the [TensorFlow](https://www.tensorflow.org/) framework and should be compatible with TF versions ≥ 1.4.1. The [Matplotlib](https://matplotlib.org/) and [NumPy](http://www.numpy.org/) packages are also required for running the code
 
-As the CNN weights exceed GitHub's regular 100MB filesize limit, you must first download the zipped `pretrained_model/` folder [from here](https://projets.lam.fr/dmsf/files/16143/view) or [here](https://drive.google.com/drive/folders/19QjIaJcbe7btlUDTHUWxC64-aEQk4r9Q) and unzip it in the `photoz` directory.
+As the CNN weights exceed GitHub's regular 100MB filesize limit, you must first download the zipped `pretrained_model/` folder [from here](https://projets.lam.fr/dmsf/files/16149/view) or [here](https://drive.google.com/drive/folders/19QjIaJcbe7btlUDTHUWxC64-aEQk4r9Q) and unzip it in the `photoz` directory.
+
+
 
